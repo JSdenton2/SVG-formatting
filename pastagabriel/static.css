@@ -1,0 +1,108 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+.svgcoisa{
+    transition: 0.1 ease-in-out;    
+}
+
+body{
+    width:100%;
+    min-height:100vh;
+    padding-bottom:5px;
+}
+
+.inputtexto{
+    width:500px;
+    font-size: 20px;
+    line-height: 50px;
+    height:50px;
+}
+
+.inputs{
+    width:100%;
+    padding-top:30px;
+    padding-bottom:2rem;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+div.caixadetexto{
+    width:100%;
+    display:flex;
+    padding-top:3rem;   
+    justify-content: center;
+    align-items: center;
+}
+
+.colors{
+    height:50px;
+    width:50px;
+    margin-left:70px;
+    margin-bottom:10px;
+}
+.colors:hover{
+    box-shadow: 3px 3px 5px gray;
+    filter: opacity(80%);
+}
+
+.red{
+    background-color: red;
+}
+
+.blue{
+    background-color: blue;
+}
+
+.green{
+    background-color: green;
+}
+
+.pink{
+    background-color: pink;
+}
+.yellow{
+    background-color: #ffd805;
+}
+
+.cor{
+    stroke:#ffee00;
+}
+.cor2{
+    fill:#ffee00;
+}
+
+.svgcoisa:hover .cor{
+    filter: grayscale(70%);
+}
+.svgcoisa:hover .cor2{
+    filter: grayscale(70%);
+}
+
+.textocor{
+    fill:#474646;
+}
+.controls{
+    width:100%;
+    display:flex;
+    justify-content: center;
+    
+}
+
+.inputcor{
+    height:30px;
+}
+
+.inputtexto{
+    border-radius: 0.5em;
+    border-color:whitesmoke;
+    border-width:0.1;
+    caret-color: gray; 
+}
+
+.confirmar{
+    width:70px;
+    margin-left:15px;
+    height:30px;
+}
